@@ -109,3 +109,14 @@ a{
     transform: scale(1.2);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
+
+
+@media only screen and (max-width:425px){
+    
+    .maincard{
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        margin-left: 40px;
+    }
+}
